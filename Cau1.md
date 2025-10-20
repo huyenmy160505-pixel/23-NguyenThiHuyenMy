@@ -1,0 +1,77 @@
+ Câu 1: Vòng d?i Phát tri?n Ph?n m?m (SDLC)
+a. Các giai do?n chính và m?c tiêu
+
+Mô hình SDLC truy?n th?ng (thu?ng du?c bi?t d?n là mô hình Thác nu?c - Waterfall) chia quy trình phát tri?n thành các giai do?n tu?n t?, rõ ràng.
+
+
+	1. Phân tích Yêu c?u (Requirement Analysis)
+		
+
+M?c tiêu: Thu th?p, phân tích và d?nh nghia rõ ràng cái gì ph?n m?m c?n ph?i làm. Giai do?n này t?p trung vào vi?c hi?u nhu c?u c?a khách hàng và ngu?i dùng cu?i d? xác d?nh các yêu c?u ch?c nang (h? th?ng làm gì) và phi ch?c nang (h? th?ng ho?t d?ng nhu th? nào, ví d?: hi?u su?t, b?o m?t).
+
+
+	2. Thi?t k? (Design)
+
+
+		M?c tiêu: Lên k? ho?ch chi ti?t làm th? nào d? xây d?ng ph?n m?m d?a trên các yêu c?u dã thu th?p. Giai do?n này t?o ra "b?n thi?t k?" cho h? th?ng, bao g?m ki?n trúc t?ng th?, thi?t k? co s? d? li?u, thi?t k? giao di?n ngu?i dùng (UI/UX), và logic c?a t?ng thành ph?n.
+
+
+	3. Thi công (Implementation / Coding)
+
+
+		M?c tiêu: Hi?n th?c hóa b?n thi?t k? b?ng cách vi?t mã ngu?n (code) b?ng m?t ngôn ng? l?p trình c? th?. Ðây là giai do?n các l?p trình viên th?c s? "xây d?ng" các tính nang c?a ph?n m?m.
+
+	4. 
+Ki?m th? (Testing)
+
+
+		M?c tiêu: Xác minh r?ng ph?n m?m ho?t d?ng dúng nhu d?c t? yêu c?u và không có l?i (bugs). Các Tester (Ki?m th? viên) s? th?c thi các k?ch b?n ki?m th? d? tìm ra các sai sót, s? không nh?t quán ho?c l?i trong ph?n m?m tru?c khi giao cho khách hàng.
+
+
+	5. Tri?n khai (Deployment)
+		
+
+M?c tiêu: Ðua ph?n m?m dã du?c ki?m th? và phê duy?t vào môi tru?ng s? d?ng th?c t? (môi tru?ng "production") d? ngu?i dùng cu?i có th? b?t d?u s? d?ng nó.
+
+
+	6. B?o trì (Maintenance)
+
+
+		M?c tiêu: H? tr? ph?n m?m sau khi dã phát hành. Giai do?n này bao g?m vi?c s?a các l?i m?i phát sinh trong quá trình s? d?ng, c?p nh?t h? th?ng d? tuong thích v?i môi tru?ng m?i, ho?c thêm các c?i ti?n, tính nang nh? theo yêu c?u.
+
+
+
+b. Ví d? v? "Hi?n v?t" (Artifact) c?a m?i giai do?n
+
+1. Giai do?n Phân tích Yêu c?u:
+
+
+		Hi?n v?t: Tài li?u Ð?c t? Yêu c?u Ph?n m?m (SRS - Software Requirement Specification). Ðây là van b?n chính th?c mô t? chi ti?t m?i th? mà ph?n m?m ph?i làm.
+2. 
+
+Giai do?n Thi?t k?:
+	
+
+Hi?n v?t: So d? Lu?c d? Co s? d? li?u (Database Schema) ho?c B?n thi?t k? giao di?n (Wireframe/Mockup).
+
+3. 
+Giai do?n Thi công:
+
+
+	Hi?n v?t: Mã ngu?n (Source Code).
+4. 
+
+Giai do?n Ki?m th?:
+
+
+	Hi?n v?t: Các K?ch b?n ki?m th? (Test Cases) ho?c Báo cáo l?i (Bug Report).
+
+
+5. Giai do?n Tri?n khai:
+
+
+Hi?n v?t: Gói cài d?t (Installation Package) ho?c Phiên b?n ph?n m?m dã phát hành (Released Build).
+
+Giai do?n B?o trì:
+
+Hi?n v?t: B?n vá l?i (Patch) ho?c Ghi chú phát hành (Release Notes) cho phiên b?n c?p nh?t.
